@@ -1,0 +1,49 @@
+Class Activity - Dart Building Blocks Part 2.
+1. Given the following code, run and observe if there is any error occurs at run time. Explain your observation.
+
+void main(){
+
+ var z = const [];
+
+ z.add(12);
+
+ z.add(24);
+
+ z.add(25);
+
+ print("This is the contents of z $z");
+
+}
+
+
+
+
+2. Create a list of names (Full Name). The list should contain a dynamic size and user would be add to any name and display all the added names in the list.
+
+ 
+
+3. Convert the list above to Set and observe any duplicate name appear and display in the set.
+
+
+
+4. Convert the set above to Map and add suitable key to identify all the names included in the Map.
+
+
+
+5. Modify the above code and create a separate function or method for each data type together the display function. For example:
+
+void main(){
+
+display();
+
+}
+
+void display(){
+
+dynamicvariables();
+
+integervariables();
+
+print();
+
+}
