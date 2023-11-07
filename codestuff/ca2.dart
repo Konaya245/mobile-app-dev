@@ -73,3 +73,22 @@ void main() {
   fullName.forEach((count, name) => print('$count is ${name}'));
 }
 */
+
+// q5 Modify the above code and create a separate function or method for each data type together the display function. For example:
+import 'dart:io';
+
+void main() {
+  display();
+}
+
+dynamic dynamicvariables() {}
+
+int integervariables() {}
+
+void display() {
+  dynamicvariables();
+
+  integervariables();
+
+  print();
+}
