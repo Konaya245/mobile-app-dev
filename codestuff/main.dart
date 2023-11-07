@@ -4,6 +4,14 @@ void main() {
   //print(a); gives null here
   a = new Student();
   print(a);
+
+  a.name = "John"; //can't if class variable private encapsulation
+  print(a);
+  print(a.getName());
+  a.display();
+
+  a.setName("Mary"); //need to set like this
+  a.display();
 }
 
 class Student {

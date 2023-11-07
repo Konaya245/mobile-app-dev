@@ -1,4 +1,7 @@
-notes 31/10 
+notes 31/10
+if (a != null && a != "" && a.length != 0){} rather than this can do if(a) to check if not empty.
+
+
 fixed list using number is kiddy stuff we use generics? unlimited now.
 prefill the list to make a list fixed size
 
@@ -29,5 +32,22 @@ Properties are variables. Functions will become method, its properties are varia
 
 
 main() is a reserved word. 
-
 5 data type int etc is primitive. String is a reference datatype uses pointers. 
+3 types of constructors, default,parameterized, named. Exampels in handout
+
+extend keyword to inherit all properties and methods from parent class
+super keyword used you can name a setter etc. without inheriting from parent. call from current class/override
+
+in dart you can use mixin with keyword to inherit more than one eg. 
+class Kulliyah extends Student with Department, Specialization{}
+
+_ underscore infront of method/variables to make it private. 
+
+create each class in a seperate file so it is easier to debug. eg. import student.dart
+
+.. cascade operator can be usedso you dont have to assign a variable to instantiate class methods.
+e.g void main(){   
+    new Student()   
+    ..setName("ali")   
+    ..display(); 
+    } 
