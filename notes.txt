@@ -51,3 +51,27 @@ e.g void main(){
     ..setName("ali")   
     ..display(); 
     } 
+
+
+
+16/11
+Programming paradigm
+Imperative - have to put everything like java
+Declarative  - eg. type= button, will create button html and flutter
+
+everything is a widget in flutter
+i. layout : column, row, scaffold, stack (like fotoshop layer)
+ii. structures : button, toast (alert), menudrawer
+rest in handout
+
+stateful vs stateless widget - interactable vs static e.g. quantity number increase vs buttons. stateful widget lifecycle will dispose of after closing/idling
+use containers to manage layout easier
+event triggers setState() to change the state after
+
+
+
+
+
+
+
+

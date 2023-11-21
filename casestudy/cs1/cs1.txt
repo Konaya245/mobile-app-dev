@@ -1,0 +1,56 @@
+No. Title & Requirements Development Criteria 
+1. A Venue Reservation System  
+
+Requirements: 
+1.    A building having 30 venues for conferences and seminars. 
+2.    Date and time are crucial to avoid clashes for multiple seminars in the same venue, date and time. 
+3.    First comes, first served basis. 
+4.    Only available venues are allowed to reserve. 
+5.    The venues are operating from 8am until 11pm.   
+
+Dart Scripting and HTML List or Map or Local Storage from (dart:html) library, Date Time 
+
+
+Task Division:
+
+
+Venue Class Implementation:
+-Create the Dart class representing a venue with properties and methods for checking availability and making reservations. - Qoys
+
+List of Venues Management:
+- Implement the Dart List or Map to store the venues, initialize them, and update their availability. - Saufi
+
+HTML Interface:
+-Develop the HTML interface to display the list of venues, their availability, and the reservation form. Use Dart to update the UI dynamically. - Azhad
+
+Reservation Logic and User Interaction:
+-Implement the reservation logic, including date and time handling, checking availability, and handling user interactions. Integrate this with the HTML interface. - Zaidi
+
+
+30venues
+Map<DateTime,int> #KEY CANNOT BE SAME
+where DateTime = starting hour of booking?
+
+
+30venuslist
+List<int>venue = const [30]
+
+booked map
+datetime = campur date + slot time 
+key = venuevalue + datetime
+Map<key, bool> booked ={}
+where slot 8 - 23, 24hr time formate. booked
+
+booking logic
+1.select venue
+venue list -> booked map
+2.select date and slot 8-23
+if (!booked[setTime] && setTime.isAfter(DateTime.now())){ //make sure not already booked and booking for the future not the past
+set booked[setTime] = true;}
+else return alreadybooked
+
+available logic
+1. select venue -> select date. 
+2. print book map (key = venueno + date + 8-23)
+
+

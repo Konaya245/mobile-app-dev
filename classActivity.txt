@@ -1,0 +1,14 @@
+16/11
+Class Activity - Types of Mobile Applications.
+1. Select 3 apps that you normally use to ease your daily life.
+
+Can you identify the types of the apps that you have selected?
+Why do you think the app is designed in that type?
+Can you notice the performance of the apps?
+What can you learn from the different types of the apps?
+
+3 apps: Whatsapp, Facebook, Twitter
+Whatsapp is native, rest is hybrid
+Native because of speed and security reasons. 
+Native runs faster such as for real time tracking gps stacking, money. Hybrid slower. Mobile web requires constant connectivity. 
+Hybrid usually from web apps that transferred over to mobile, if any interface transfers to a webpage it should also be a hybrid. Hybrid usually for apps that want to be developed and rolled out fast and native requires development on all the offered platforms. 

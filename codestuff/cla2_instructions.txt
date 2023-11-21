@@ -1,0 +1,9 @@
+Class Assignment - Dart Object-Oriented Programming.
+Based on the previous Class Assignment (Dart Building Blocks) convert your code implementation to Object-Oriented approach. Your implementation must include the following requirements:
+
+Appropriate local variables or properties and methods or functions.
+There are setters and getters for each local variable or property declared.
+There are calculation and display methods.
+Local variables or properties must be encapsulated with private modifier.
+Include appropriate comments.
+Separate file for class (calculation.dart) and execution (<CLA2-matricno>.dart)
